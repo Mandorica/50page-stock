@@ -1,9 +1,8 @@
 import React from "react";
-import Inventory from "C:/Users/mandori97/Documents/50Page_stock/50page-stock/50page-stock/stock-app/src/components/stock";
-
+import Inventory from "./components/Inventory";
 function App() {
   return (
-    <div className="App">
+    <div>
       <Inventory />
     </div>
   );
