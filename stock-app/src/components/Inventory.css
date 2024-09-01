@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+body {
+  background-color: rgb(61, 123, 162);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 100px 0 1rem 0;
+}
+
+.wrap {
+  max-width: 600px;
+  width: 80%;
+  margin: auto;
+}
+.post {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: rgb(122, 187, 224);
+  margin-bottom: 2rem;
+  padding: 2rem;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.reset-btn {
+  border-radius: 10px;
+  background-color: rgb(61, 123, 162);
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 72px;
+}
