@@ -52,7 +52,7 @@ const Inventory = () => {
         {Object.keys(stock).map((key) => (
           <li className="post" key={key} data-key={key}>
             {stock[key].name}: {stock[key].quantity} left
-            <button class="reset-btn" onClick={() => handleResetClick(key)}>
+            <button className="reset-btn" onClick={() => handleResetClick(key)}>
               초기화
             </button>
           </li>
