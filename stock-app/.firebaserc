@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "fifty-page",
+    "fifty-page": "fifty-page"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
