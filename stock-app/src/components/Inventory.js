@@ -6,14 +6,14 @@ import {
 } from "../firebase";
 import { ref, onValue } from "firebase/database";
 import "./Inventory.css";
-
+import { CAPCITY } from "../constants/Common";
 const Inventory = () => {
   const [stock, setstock] = useState({});
 
   const handleResetClick = (key) => {
     // 확인 대화 상자를 띄우고, 사용자가 "확인"을 클릭했을 때만 초기화
     if (window.confirm(`${stock[key].name}을 초기화하시겠습니까?`)) {
-      resetProductQuantity(key, 46);
+      resetProductQuantity(key, CAPCITY);
     }
   };
 
