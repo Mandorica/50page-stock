@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set } from "firebase/database";
-
+import { CAPCITY } from "./constants/Common";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -27,11 +27,11 @@ export const initializeInventoryData = async () => {
   const initialInventory = {
     kiosk_1: {
       name: "kiosk 1",
-      quantity: 46,
+      quantity: CAPCITY,
     },
     kiosk_2: {
       name: "kiosk 2",
-      quantity: 46,
+      quantity: CAPCITY,
     },
   };
 
